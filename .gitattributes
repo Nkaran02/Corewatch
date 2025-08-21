@@ -1,0 +1,11 @@
+# Ignore all vendor files (like node_modules or packages)
+node_modules/* linguist-vendored
+
+# Force classify .tpl files as HTML
+*.tpl linguist-language=HTML
+
+# Ignore build files
+/dist/* linguist-generated
+
+# Force Python classification for .py files
+*.py linguist-language=Python
